@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecha y</title>
+    <style>@import url(style.css);</style>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class="title">Calendario</h1>
+
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
+    </div>
+
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Lunes</div>
+        <div class="calendar__day calendar__item">Martes</div>
+        <div class="calendar__day calendar__item">Miércoles</div>
+        <div class="calendar__day calendar__item">Jueves</div>
+        <div class="calendar__day calendar__item">Viernes</div>
+        <div class="calendar__day calendar__item">Sábado</div>
+        <div class="calendar__day calendar__item">Domingo</div>
+    </div>
+
+    <div class="calendar__week2">
+        <div class="calendar__day calendar__item">Lun</div>
+        <div class="calendar__day calendar__item">Mar</div>
+        <div class="calendar__day calendar__item">Mie</div>
+        <div class="calendar__day calendar__item">Jue</div>
+        <div class="calendar__day calendar__item">Vie</div>
+        <div class="calendar__day calendar__item">Sáb</div>
+        <div class="calendar__day calendar__item">Dom</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+
+</div>
+
+<div class="hora">
+    <h1 class="title">Hora</h1>
+    <h2 id="HoraActual" style=" border-radius: 20px; text-align: center; background-color: cyan; width: 80%; max-width: 600px; margin: 1em auto; padding: .5em 0;"></h2>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
